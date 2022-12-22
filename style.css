@@ -94,9 +94,26 @@ nav a:hover{
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 100%;
+    padding: 0 5%;
+}
+
+.marco{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
 }
 
 
-.marco h2{
-    padding: 1em;
+footer{
+    padding: 2em;
+    background-color: rgb(10, 10, 10);
+    text-align: center;
+}
+
+footer a{
+    font-weight: 600;
+    color: #fff;
+    text-decoration:underline;
+    width: 100%;
 }
